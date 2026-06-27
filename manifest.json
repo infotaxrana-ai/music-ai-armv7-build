@@ -1,0 +1,50 @@
+{
+  "package": "Music_AI_GitHub_ARMv7_Cloud_Build",
+  "status": "cloud-build compatibility candidate",
+  "files": {
+    ".github/workflows/build-armv7.yml": {
+      "size": 3741,
+      "sha256": "4b8a1184c18a753352ca0a1aed04d6bf4ff26a3a4ac9e847bb8202f2e1d3fee9"
+    },
+    ".gitignore": {
+      "size": 44,
+      "sha256": "b1973241fafef48e803f28788c97bdcceb2426ab03595585bd47a823cb3c0463"
+    },
+    "README.md": {
+      "size": 1482,
+      "sha256": "8cbfd0f5c8a0b366fe107ff59c3034eb77d06a72f1dfcd5805fc66fa539499c3"
+    },
+    "UPLOAD_TO_GITHUB.txt": {
+      "size": 972,
+      "sha256": "86b2447bfc1fa03a360ca37b166ff136856fb537e05d4277dee057f433a1e292"
+    },
+    "deploy/03_DEPLOY_AND_TEST_CUSTOM_ARMV7.ps1": {
+      "size": 3474,
+      "sha256": "80fc892f22b785f57f8cf188c2284067dde7ca82c040dd0f45a7a6db9f0a9515"
+    },
+    "deploy/README_AFTER_BUILD.txt": {
+      "size": 581,
+      "sha256": "c0cfb838680bb5abdea4c02ee7b135b089a5ac8db455ad06fd45183a0bfbc662"
+    },
+    "deploy/install_custom_armv7_runtime.sh": {
+      "size": 2324,
+      "sha256": "351cc4fc3158c179f23ddc0297dbabe860a95544c06dcf20cf05422002e6cff4"
+    },
+    "native/music_ai_sherpa_probe.c": {
+      "size": 3381,
+      "sha256": "bd2fab383b2012f22bf8376a3696ebaa3e84fc6be73cea21e49fce1c0460bd6e"
+    },
+    "native/music_ai_sherpa_transcribe.c": {
+      "size": 3130,
+      "sha256": "8b8a911c585a7ee1336f248ad608dd9ccc66bf705797099db34474b6e15ebbc2"
+    },
+    "scripts/build_onnxruntime_armv7.sh": {
+      "size": 3067,
+      "sha256": "d341a4155864bcde600c6b0e5a868ec76bbb86c54e1f2785f32442ae4592bb62"
+    },
+    "scripts/build_sherpa_armv7.sh": {
+      "size": 6795,
+      "sha256": "99f3be8678783d8a991eeeb4ccb41835dafa48f13eca73ebf20b7ff91423e52e"
+    }
+  }
+}

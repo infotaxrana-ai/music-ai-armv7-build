@@ -1,0 +1,26 @@
+GITHUB UPLOAD STEPS
+
+1. Open GitHub in the browser.
+2. Select the plus sign in the top-right corner.
+3. Select New repository.
+4. Repository name:
+   music-ai-armv7-build
+5. Select Public.
+6. Do not add a README, .gitignore, or license.
+7. Select Create repository.
+8. On the empty repository page, select uploading an existing file.
+9. Extract Music_AI_GitHub_ARMv7_Cloud_Build.zip on the PC.
+10. Open the extracted Music_AI_GitHub_ARMv7_Cloud_Build folder.
+11. Drag all items from inside that folder onto the GitHub upload page.
+    Include the .github folder.
+12. In the commit box, write:
+    Add ARMv7 cloud build
+13. Select Commit changes.
+14. Open the Actions tab.
+15. Select Build Music AI custom ARMv7 runtime.
+16. Select Run workflow, then Run workflow again.
+17. Wait until both jobs show green check marks.
+18. Open the completed run.
+19. Under Artifacts, download:
+    Music_AI_Custom_ARMv7_Runtime_<number>
+20. Send a screenshot if any build step turns red.
