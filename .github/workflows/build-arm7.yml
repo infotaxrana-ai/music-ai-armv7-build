@@ -1,0 +1,5 @@
+name: Build Music AI custom ARMv7 runtime
+on: [workflow_dispatch]
+permissions: {contents: read}
+env: {ORT_VERSION: "1.24.3", SHERPA_VERSION: "1.13.3", ANDROID_API: "21", BUILD_JOBS: "2"}
+jobs: {build: {runs-on: "ubuntu-24.04", steps: [{uses: "actions/checkout@v4"}, {run: "chmod +x scripts/build_onnxruntime_armv7.sh scripts/build_sherpa_armv7.sh\nscripts/build_onnxruntime_armv7.sh\nrm -rf downloaded-onnxruntime\nmkdir -p downloaded-onnxruntime\ncp -R out/onnxruntime-armv7/. downloaded-onnxruntime/\nscripts/build_sherpa_armv7.sh"}, {uses: "actions/upload-artifact@v4", with: {name: "Music_AI_Custom_ARMv7_Runtime", path: "release/Music_AI_Custom_ARMv7_Runtime.zip"}}]}}
